@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier, plot_tree from sklearn.metrics import
 accuracy_score
 # Load dataset
-data = pd.read_csv("/content/placement_data.csv")
+data = pd.read_csv("/content/placement_data.csv") 
 # Features and Target
 X =
 data[['cgpa','communication_skills','projects_completed','iq','internsh ip_experience']]
