@@ -1,5 +1,5 @@
 EX.NO.03
-import numpy as np import pandas
+import numpy as np import pandas 
 as pd
 fromsklearn.linear_model import LinearRegression, Lasso import matplotlib.pyplot as plt
 np.random.seed(42)
