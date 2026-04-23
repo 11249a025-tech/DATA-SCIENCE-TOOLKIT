@@ -6,7 +6,7 @@ from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
 # Load data
 data = pd.read_csv("/content/mall_customers.csv")
-# Features
+# Features 
 X = data[['Age','Annual Income (k$)','Spending Score (1-100)']]
 # Scale
 scaler = StandardScaler()
