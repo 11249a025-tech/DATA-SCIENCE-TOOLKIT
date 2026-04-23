@@ -1,5 +1,5 @@
 EXPNO1 
-1.1(A) Creating Arrays
+1.1(A) Creating Arrays 
 import numpy as np print(
 "1D Array:\n", np.array([1,2,3,4,5]), "\n\n"
 "2DArray:\n", np.array([[1,2,3],[4,5,6]]), "\n\n" "Zeros:\n", np.zeros((3,3)),
